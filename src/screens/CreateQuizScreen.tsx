@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {View, Text, SafeAreaView, ToastAndroid} from 'react-native';
-import {COLORS} from '../constants/theme';
+import {COLORS} from '../components/constants/theme';
 import FormInput from '../components/shared/FormInput';
 import FormButton from '../components/shared/FormButton';
 import {createQuiz} from '../utils/database';

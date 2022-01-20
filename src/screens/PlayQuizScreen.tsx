@@ -8,7 +8,7 @@ import {
   Image,
   TouchableOpacity,
 } from 'react-native';
-import {COLORS} from '../constants/theme';
+import {COLORS} from '../components/constants/theme';
 import {getQuestionsByQuizId, getQuizById} from '../utils/database';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import FormButton from '../components/shared/FormButton';

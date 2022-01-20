@@ -1,4 +1,4 @@
-import HomeScreen from './HomeScreen';
+import HomeScreen from './Homescreen';
 import SignInScreen from './SignInScreen';
 import SignUpScreen from './SignUpScreen';
 import CreateQuizScreen from './CreateQuizScreen';

@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
   Image,
 } from 'react-native';
-import {COLORS} from '../constants/theme';
+import {COLORS} from '../components/constants/theme';
 import FormInput from '../components/shared/FormInput';
 import FormButton from '../components/shared/FormButton';
 import {createQuestion} from '../utils/database';

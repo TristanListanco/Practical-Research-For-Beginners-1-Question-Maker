@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {View, Text, SafeAreaView} from 'react-native';
 import FormButton from '../components/shared/FormButton';
 import FormInput from '../components/shared/FormInput';
-import {COLORS} from '../constants/theme';
+import {COLORS} from '../components/constants/theme';
 import {signIn} from '../utils/auth';
 
 const SignInScreen = ({navigation}) => {

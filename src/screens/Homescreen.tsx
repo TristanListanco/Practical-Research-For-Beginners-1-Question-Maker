@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import {signOut} from '../utils/auth';
 import FormButton from '../components/shared/FormButton';
-import {COLORS} from '../constants/theme';
+import {COLORS} from '../components/constants/theme';
 import {getQuizzes} from '../utils/database';
 
 const HomeScreen = ({navigation}) => {

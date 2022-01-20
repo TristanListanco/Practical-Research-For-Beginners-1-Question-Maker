@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {View, Text, SafeAreaView, Alert} from 'react-native';
 import FormButton from '../components/shared/FormButton';
 import FormInput from '../components/shared/FormInput';
-import {COLORS} from '../constants/theme';
+import {COLORS} from '../components/constants/theme';
 import {signUp} from '../utils/auth';
 
 const SignUpScreen = ({navigation}) => {

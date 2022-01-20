@@ -9,7 +9,7 @@ const App = () => {
   const [currentUser, setCurrentUser] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  const onAuthStateChanged = async user => {
+  const onAuthStateChanged = async (user:any) => {
     await setCurrentUser(user);
     setIsLoading(false);
   };
@@ -25,7 +25,7 @@ const App = () => {
 
   return (
     <NavigationContainer>
-      {currentUser ? <AppStackNavigator /> : <AuthStackNavigator />}
+      {currentUser ?  <AuthStackNavigator /> :  <AppStackNavigator />}
     </NavigationContainer>
   );
 };
